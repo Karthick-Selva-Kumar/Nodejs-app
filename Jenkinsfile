@@ -4,8 +4,8 @@ pipeline {
     environment {
         // You need to change region,access key and secret key of yours
         AWS_REGION = 'us-east-2'
-        AWS_ACCESS_KEY_ID = credentials('AKIARADPSYCSZF2V2RNX')
-        AWS_SECRET_ACCESS_KEY = credentials('aBQakZItLeZJnccZqPCr8QwJzReRK85Di6ZAAyxa')
+        AWS_ACCESS_KEY_ID = 'AKIARADPSYCSZF2V2RNX'
+        AWS_SECRET_ACCESS_KEY = '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'
         APPLICATION_NAME = 'Nodejs'
         ENVIRONMENT_NAME = 'Nodejs-env'
         S3_BUCKET = 'elasticbeanstalk-ap-south-1-068953489573' // Give your s3 name created by aws beanstalk
